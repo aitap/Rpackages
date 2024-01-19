@@ -57,7 +57,7 @@ nodepool:
 	git clone https://github.com/aitap/nodepool $@
 
 depcache:
-	git clone https://github.com/aitap/depcache $@
+	git clone --branch serialize_canonical https://github.com/aitap/depcache $@
 
 # Cannot set $(PACKAGES) without having cloned the repo
 # (thankfully, this is needed only once)
