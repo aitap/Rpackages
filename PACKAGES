@@ -1,0 +1,14 @@
+Package: depcache
+Version: 0.3
+Imports: codetools, methods
+License: GPL (>= 3)
+MD5sum: b2f0883704dcb004fe602a076964829e
+NeedsCompilation: yes
+
+Package: nodepool
+Version: 0.0.0.9999
+Depends: R (>= 4.0)
+Imports: methods, parallel
+License: AGPL-3
+MD5sum: 45a5fe923c67a52508cb3a6ea76cd988
+NeedsCompilation: no
